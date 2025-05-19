@@ -1,6 +1,5 @@
 # MLflow Tracking Server Deployment
 
-Это простой способ развертывания удаленного MLflow Tracking сервера с использованием Docker.
 Simple method how i deploy remote MLflow Tracking server with Docker on Ubuntu 24.10
 
 To start:
