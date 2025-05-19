@@ -9,3 +9,4 @@ To start:
 2. Create your S3 
 3. Rename and edit .env-template 
 4. python3 main.py
+5. python3 run_example.py
