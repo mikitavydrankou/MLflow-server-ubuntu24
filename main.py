@@ -1,9 +1,5 @@
 import subprocess
-import os
 from pathlib import Path
-import psycopg2
-import boto3
-from dotenv import load_dotenv
 
 def execute_command(command):
     print(f"\n[RUN] {command}")
@@ -24,6 +20,11 @@ commands_to_execute = [
     f"{PIP} install boto3 python-dotenv mlflow scikit-learn psycopg2-binary",
     f"{PYTHON} create_bucket.py"
 ]
+
+import os
+import psycopg2
+import boto3
+from dotenv import load_dotenv
 
 def test_s3_connection():
     print("\n[TEST] Check connection to DigitalOcean Spaces (S3)...")
